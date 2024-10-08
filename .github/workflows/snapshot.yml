@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: download snapshot
         run: |
-          rm -rf *
+          rm -rf bin src snapshot.url
           curl "https://raw.githubusercontent.com/r-multiverse/staging/main/snapshot.url" -Lo snapshot.url
           cat snapshot.url | xargs curl -Lo snapshot.zip
           unzip snapshot.zip && rm -f snapshot.zip

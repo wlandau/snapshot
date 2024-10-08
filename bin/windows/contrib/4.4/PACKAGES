@@ -2,9 +2,9 @@ Package: cmdstanr
 Version: 0.8.1
 License: BSD_3_clause + file LICENSE
 NeedsCompilation: no
-Built: R 4.4.1; ; 2024-08-24 05:33:52 UTC; windows
-MD5sum: 3abcfc288d33bc65ec890bd88d45f5e7
-Filesize: 1567660
+Built: R 4.4.1; ; 2024-09-23 05:16:33 UTC; windows
+MD5sum: 8fceb5fb36a6bc280b93d9748a297870
+Filesize: 1567549
 Depends: R (>= 3.5.0)
 Imports: checkmate, data.table, jsonlite (>= 1.2.0), posterior (>= 1.4.1), processx (>= 3.5.0), R6 (>= 2.4.0), withr (>= 2.5.0), rlang (>= 0.4.7)
 Suggests: bayesplot, ggplot2, knitr (>= 1.37), loo (>= 2.0.0), rmarkdown, testthat (>= 2.1.0), Rcpp
@@ -13,9 +13,9 @@ Package: crew
 Version: 0.9.5
 License: MIT + file LICENSE
 NeedsCompilation: no
-Built: R 4.4.1; ; 2024-08-24 05:32:35 UTC; windows
-MD5sum: fb3740c5d1fe3cddde066aa7ab187e57
-Filesize: 1055202
+Built: R 4.4.1; ; 2024-09-23 05:16:06 UTC; windows
+MD5sum: e6d8917b8a3ff88bf0b1ef2bb0d5f809
+Filesize: 1055435
 Depends: R (>= 4.0.0)
 Imports: cli (>= 3.1.0), data.table, getip, later, mirai (>= 0.12.0), nanonext (>= 0.12.0), processx, promises, ps, R6, rlang, stats, tibble, tidyselect, tools, utils
 Suggests: knitr (>= 1.30), markdown (>= 1.1), rmarkdown (>= 2.4), testthat (>= 3.0.0)
@@ -24,10 +24,10 @@ Package: duckdb
 Version: 1.0.0-2
 License: MIT + file LICENSE
 NeedsCompilation: yes
-Built: R 4.4.1; x86_64-w64-mingw32; 2024-08-24 06:09:52 UTC; windows
+Built: R 4.4.1; x86_64-w64-mingw32; 2024-09-23 05:52:23 UTC; windows
 Archs: x64
-MD5sum: efc2a40cb53f5942cf9e6363e5d1b986
-Filesize: 10366186
+MD5sum: 36eabcc299554275421d362584f6779b
+Filesize: 10366172
 Depends: DBI, R (>= 3.6.0)
 Imports: methods, utils
 Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
@@ -36,10 +36,10 @@ Package: httpgd
 Version: 2.0.2
 License: GPL (>= 2)
 NeedsCompilation: yes
-Built: R 4.4.1; x86_64-w64-mingw32; 2024-08-24 05:34:16 UTC; windows
+Built: R 4.4.1; x86_64-w64-mingw32; 2024-09-23 05:16:33 UTC; windows
 Archs: x64
-MD5sum: 064fe1cdf54931984cdeb5efdc11e50d
-Filesize: 860714
+MD5sum: 60c196b4f31a455a4797eb2eddb90c1b
+Filesize: 861997
 Depends: R (>= 3.2.0)
 LinkingTo: unigd, cpp11 (>= 0.2.4), AsioHeaders (>= 1.22.1)
 Imports: unigd
@@ -49,10 +49,10 @@ Package: ichimoku
 Version: 1.5.4
 License: GPL (>= 3)
 NeedsCompilation: yes
-Built: R 4.4.0; x86_64-w64-mingw32; 2024-08-18 22:21:43 UTC; windows
+Built: R 4.4.1; x86_64-w64-mingw32; 2024-09-17 05:30:59 UTC; windows
 Archs: x64
-MD5sum: 8934c670580a2303e0665318ee5c9456
-Filesize: 1468955
+MD5sum: bfb5c14582808b5d4a8c60b8a6bcc308
+Filesize: 1469550
 Depends: R (>= 3.5)
 LinkingTo: RcppSimdJson, xts
 Imports: ggplot2 (>= 3.4.0), mirai (>= 1.0.0), nanonext (>= 1.0.0), RcppSimdJson (>= 0.1.9), secretbase (>= 1.0.0), shiny (>= 1.4.0), xts, zoo
@@ -62,10 +62,10 @@ Package: igraph
 Version: 2.0.2
 License: GPL (>= 2)
 NeedsCompilation: yes
-Built: R 4.4.1; x86_64-w64-mingw32; 2024-08-24 05:53:48 UTC; windows
+Built: R 4.4.1; x86_64-w64-mingw32; 2024-09-23 05:36:28 UTC; windows
 Archs: x64
-MD5sum: 04c86e242fd045628d18944c6cd12ffd
-Filesize: 7684732
+MD5sum: 73ccfd10f85ed7b8e62a5ce7472665de
+Filesize: 7692208
 Depends: methods, R (>= 3.5.0)
 LinkingTo: cpp11 (>= 0.4.7)
 Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils, vctrs
@@ -75,10 +75,10 @@ Package: later
 Version: 1.3.2
 License: MIT + file LICENSE
 NeedsCompilation: yes
-Built: R 4.4.1; x86_64-w64-mingw32; 2024-08-24 05:32:42 UTC; windows
+Built: R 4.4.1; x86_64-w64-mingw32; 2024-09-23 05:16:36 UTC; windows
 Archs: x64
-MD5sum: a3f575e6f1159bbbb8d32d869884bd08
-Filesize: 446407
+MD5sum: fddd9bf80d8655d846e71716cb1c672c
+Filesize: 446279
 LinkingTo: Rcpp
 Imports: Rcpp (>= 0.12.9), rlang
 Suggests: knitr, rmarkdown, testthat (>= 2.1.0)
@@ -87,9 +87,9 @@ Package: mirai
 Version: 1.2.0
 License: GPL (>= 3)
 NeedsCompilation: no
-Built: R 4.4.1; ; 2024-08-29 23:10:37 UTC; windows
-MD5sum: e6b13a697813e53eae8c1d946f90d66c
-Filesize: 291254
+Built: R 4.4.1; ; 2024-09-28 05:58:16 UTC; windows
+MD5sum: 18ba0b9a1347880710dcf8352dc0db11
+Filesize: 291024
 Depends: R (>= 3.6)
 Imports: nanonext (>= 1.2.0)
 Suggests: knitr, markdown
@@ -99,9 +99,9 @@ Package: multitools
 Version: 0.1.1
 License: MIT + file LICENSE
 NeedsCompilation: no
-Built: R 4.4.1; ; 2024-08-24 05:32:00 UTC; windows
-MD5sum: 09fdd73122115b6b3174bd8e412bac04
-Filesize: 108110
+Built: R 4.4.1; ; 2024-09-23 05:15:14 UTC; windows
+MD5sum: 3d7543589a421a389b75e5354f93022f
+Filesize: 108112
 Depends: R (>= 4.0.0)
 Imports: jsonlite, tibble
 Suggests: curl, knitr (>= 1.30), markdown (>= 1.1), rmarkdown (>= 2.4), testthat (>= 3.0.0)
@@ -110,9 +110,9 @@ Package: multiverse.internals
 Version: 0.2.11
 License: MIT + file LICENSE
 NeedsCompilation: no
-Built: R 4.4.1; ; 2024-08-22 14:17:26 UTC; windows
-MD5sum: 50eb7a401531035b6b16ead656800a2a
-Filesize: 113749
+Built: R 4.4.1; ; 2024-09-21 05:24:52 UTC; windows
+MD5sum: 874eac9c7c7a8f5a66ccf2df99b842e7
+Filesize: 113639
 Depends: R (>= 3.6)
 Imports: gh, igraph, jsonlite, nanonext, pkgsearch, utils, vctrs
 Suggests: gert, testthat (>= 3.0.0)
@@ -121,10 +121,10 @@ Package: nanonext
 Version: 1.2.1
 License: GPL (>= 3)
 NeedsCompilation: yes
-Built: R 4.4.0; x86_64-w64-mingw32; 2024-08-19 08:22:41 UTC; windows
+Built: R 4.4.1; x86_64-w64-mingw32; 2024-09-18 05:42:18 UTC; windows
 Archs: x64
-MD5sum: e098c425311750d3bcb8801943546b20
-Filesize: 653712
+MD5sum: 1dd152d910761d52c5ef1cc5a5309de2
+Filesize: 653458
 Depends: R (>= 3.6)
 Suggests: knitr, later, markdown
 Enhances: promises
@@ -133,9 +133,9 @@ Package: rJavaEnv
 Version: 0.0.1
 License: MIT + file LICENSE
 NeedsCompilation: no
-Built: R 4.4.1; ; 2024-08-29 23:02:39 UTC; windows
-MD5sum: 59e7b1ee55409b66b0298d75936b719c
-Filesize: 359723
+Built: R 4.4.1; ; 2024-09-28 05:59:47 UTC; windows
+MD5sum: f8c6ffc028051fd74f44fc418fccce63
+Filesize: 359696
 Imports: checkmate, cli, curl, jsonlite, utils
 Suggests: knitr, rmarkdown, rJava, testthat (>= 3.0.0)
 
@@ -143,20 +143,20 @@ Package: secretbase
 Version: 1.0.1
 License: GPL (>= 3)
 NeedsCompilation: yes
-Built: R 4.4.1; x86_64-w64-mingw32; 2024-08-24 05:31:18 UTC; windows
+Built: R 4.4.1; x86_64-w64-mingw32; 2024-09-20 00:59:31 UTC; windows
 Archs: x64
-MD5sum: cb9f89a274bebe86effa3a52e2c9b22a
-Filesize: 51501
+MD5sum: 998f996b3e2475fb2760ea8f5a3d091f
+Filesize: 51467
 Depends: R (>= 3.5)
 
 Package: string2path
 Version: 0.1.7
 License: MIT + file LICENSE
 NeedsCompilation: yes
-Built: R 4.4.1; x86_64-w64-mingw32; 2024-08-24 05:32:52 UTC; windows
+Built: R 4.4.1; x86_64-w64-mingw32; 2024-09-23 05:16:43 UTC; windows
 Archs: x64
-MD5sum: cb7fe01060c19788c80bb89e1a2991eb
-Filesize: 806165
+MD5sum: 86814991af2f375c57cc8ecd097eb767
+Filesize: 823410
 Depends: R (>= 4.2)
 Imports: tibble, cli
 Suggests: testthat (>= 3.0.0)
@@ -165,8 +165,8 @@ Package: targetsketch
 Version: 0.0.1
 License: MIT + file LICENSE
 NeedsCompilation: no
-Built: R 4.4.1; ; 2024-08-24 05:34:21 UTC; windows
-MD5sum: a0b7fbf03b0dbd9093ecfc77c8769bed
+Built: R 4.4.1; ; 2024-09-23 05:16:03 UTC; windows
+MD5sum: c5512513ea209be35b9fb03d30cafeca
 Filesize: 31906
 Depends: R (>= 4.1.0)
 Imports: bs4Dash (>= 2.0.0), DT (>= 0.14), htmltools (>= 0.5.0), markdown, rclipboard, shiny (>= 1.5.0), shinyalert (>= 1.1), shinyAce (>= 0.4.1), shinybusy (>= 0.2.0), shinycssloaders (>= 0.3), shinyFiles (>= 0.9.3), targets (>= 0.2.0), tarchetypes (>= 0.1.0), visNetwork (>= 2.0.9), withr (>= 2.2.0)
@@ -176,10 +176,10 @@ Package: zstdlite
 Version: 0.2.6
 License: MIT + file LICENSE
 NeedsCompilation: yes
-Built: R 4.4.1; x86_64-w64-mingw32; 2024-08-24 05:32:41 UTC; windows
+Built: R 4.4.1; x86_64-w64-mingw32; 2024-09-22 06:05:52 UTC; windows
 Archs: x64
-MD5sum: 9ddf536fdbfe82b9b129e77591eb6e4f
-Filesize: 470281
+MD5sum: ec4f059f201487cb4059205422a3a308
+Filesize: 470294
 Depends: R (>= 3.4.0)
 Suggests: knitr, rmarkdown, testthat, bench
 

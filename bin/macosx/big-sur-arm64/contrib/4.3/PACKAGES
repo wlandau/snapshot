@@ -2,9 +2,9 @@ Package: duckdb
 Version: 1.0.0-2
 License: MIT + file LICENSE
 NeedsCompilation: yes
-Built: R 4.3.3; aarch64-apple-darwin20; 2024-08-24 06:09:35 UTC; unix
-MD5sum: 5e58d764f3f83b2955899ed38189b54e
-Filesize: 10730560
+Built: R 4.3.3; aarch64-apple-darwin20; 2024-09-23 05:51:53 UTC; unix
+MD5sum: 03c9c861f041074a199e74288ac675a3
+Filesize: 10854119
 Depends: DBI, R (>= 3.6.0)
 Imports: methods, utils
 Suggests: adbcdrivermanager, arrow (>= 13.0.0), bit64, callr, clock, DBItest, dbplyr, dplyr, rlang, testthat, tibble, vctrs, withr
@@ -13,9 +13,9 @@ Package: httpgd
 Version: 2.0.2
 License: GPL (>= 2)
 NeedsCompilation: yes
-Built: R 4.3.3; aarch64-apple-darwin20; 2024-08-24 05:34:01 UTC; unix
-MD5sum: d187262548e9759be3f15e8b1daf73be
-Filesize: 514424
+Built: R 4.3.3; aarch64-apple-darwin20; 2024-09-23 05:20:47 UTC; unix
+MD5sum: 846eb8e1f212ca16e3ee80c10906cd4f
+Filesize: 519759
 Depends: R (>= 3.2.0)
 LinkingTo: unigd, cpp11 (>= 0.2.4), AsioHeaders (>= 1.22.1)
 Imports: unigd
@@ -25,9 +25,9 @@ Package: ichimoku
 Version: 1.5.4
 License: GPL (>= 3)
 NeedsCompilation: yes
-Built: R 4.3.3; aarch64-apple-darwin20; 2024-08-18 22:21:36 UTC; unix
-MD5sum: 5920adb38e380d62e2c65df771b49070
-Filesize: 1456919
+Built: R 4.3.3; aarch64-apple-darwin20; 2024-09-17 05:30:57 UTC; unix
+MD5sum: 18bc16f0d0d3c634be110762b78fb4fe
+Filesize: 1456901
 Depends: R (>= 3.5)
 LinkingTo: RcppSimdJson, xts
 Imports: ggplot2 (>= 3.4.0), mirai (>= 1.0.0), nanonext (>= 1.0.0), RcppSimdJson (>= 0.1.9), secretbase (>= 1.0.0), shiny (>= 1.4.0), xts, zoo
@@ -37,9 +37,9 @@ Package: igraph
 Version: 2.0.2
 License: GPL (>= 2)
 NeedsCompilation: yes
-Built: R 4.3.3; aarch64-apple-darwin20; 2024-08-24 05:53:34 UTC; unix
-MD5sum: 62f86c1d1ae4e1089f8c485fba15114e
-Filesize: 6201119
+Built: R 4.3.3; aarch64-apple-darwin20; 2024-09-23 05:36:18 UTC; unix
+MD5sum: 2788375eaf5880de40d601a526d3bd6c
+Filesize: 6207087
 Depends: methods, R (>= 3.5.0)
 LinkingTo: cpp11 (>= 0.4.7)
 Imports: cli, graphics, grDevices, lifecycle, magrittr, Matrix, pkgconfig (>= 2.0.0), rlang, stats, utils, vctrs
@@ -49,9 +49,9 @@ Package: later
 Version: 1.3.2
 License: MIT + file LICENSE
 NeedsCompilation: yes
-Built: R 4.3.3; aarch64-apple-darwin20; 2024-08-24 05:33:50 UTC; unix
-MD5sum: 090f6c66147178e675cd0e24830d904d
-Filesize: 117793
+Built: R 4.3.3; aarch64-apple-darwin20; 2024-09-23 05:16:53 UTC; unix
+MD5sum: 137ad24599689f28bb30229f4cbd50f1
+Filesize: 117718
 LinkingTo: Rcpp
 Imports: Rcpp (>= 0.12.9), rlang
 Suggests: knitr, rmarkdown, testthat (>= 2.1.0)
@@ -60,9 +60,9 @@ Package: nanonext
 Version: 1.2.1
 License: GPL (>= 3)
 NeedsCompilation: yes
-Built: R 4.3.3; aarch64-apple-darwin20; 2024-08-19 08:21:09 UTC; unix
-MD5sum: ce6eab2ccd91e5165f2df0bae7d08655
-Filesize: 645789
+Built: R 4.3.3; aarch64-apple-darwin20; 2024-09-18 05:41:22 UTC; unix
+MD5sum: 4ca61bc6fa07ecf9f7a22083cf54d9c2
+Filesize: 645771
 Depends: R (>= 3.6)
 Suggests: knitr, later, markdown
 Enhances: promises
@@ -71,18 +71,18 @@ Package: secretbase
 Version: 1.0.1
 License: GPL (>= 3)
 NeedsCompilation: yes
-Built: R 4.3.3; aarch64-apple-darwin20; 2024-08-24 05:31:31 UTC; unix
-MD5sum: 53ddc05d669cc73b530fbcaf474602dd
-Filesize: 45139
+Built: R 4.3.3; aarch64-apple-darwin20; 2024-09-20 01:04:44 UTC; unix
+MD5sum: 34506b9532f641c376da8eadec76be3c
+Filesize: 45153
 Depends: R (>= 3.5)
 
 Package: string2path
 Version: 0.1.7
 License: MIT + file LICENSE
 NeedsCompilation: yes
-Built: R 4.3.3; aarch64-apple-darwin20; 2024-08-24 05:32:39 UTC; unix
-MD5sum: 8d68c15595cc8f12c05b297e89d2760d
-Filesize: 734891
+Built: R 4.3.3; aarch64-apple-darwin20; 2024-09-23 05:16:17 UTC; unix
+MD5sum: 9232a330cccf54c1ffb907efc171e5bb
+Filesize: 746628
 Depends: R (>= 4.2)
 Imports: tibble, cli
 Suggests: testthat (>= 3.0.0)
@@ -91,9 +91,9 @@ Package: zstdlite
 Version: 0.2.6
 License: MIT + file LICENSE
 NeedsCompilation: yes
-Built: R 4.3.3; aarch64-apple-darwin20; 2024-08-24 05:32:45 UTC; unix
-MD5sum: 1c5ce683ba3792883b2fafcb3f1ddd6e
-Filesize: 387334
+Built: R 4.3.3; aarch64-apple-darwin20; 2024-09-22 06:05:07 UTC; unix
+MD5sum: 009004abf8ae86613fe1068a0bf89122
+Filesize: 387319
 Depends: R (>= 3.4.0)
 Suggests: knitr, rmarkdown, testthat, bench
 

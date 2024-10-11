@@ -1,0 +1,7 @@
+Ownership of, authorship of, copyright of, responsibility for, and liability
+for the contents of `bin/` and `src/` are defined in the
+`DESCRIPTION` file and license of each individual R package therein.
+Neither R-multiverse nor its administrators (the RMC) own or retain
+copyright for the R packages inside folders `bin/` or `src/`.
+Neither R-multiverse nor its administrators are responsible or liable
+for the contents inside `bin/` or `src/`.

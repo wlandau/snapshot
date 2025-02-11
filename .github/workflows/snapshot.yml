@@ -1,6 +1,6 @@
 # MIT License
 # 
-# Copyright (c) 2024 Jeroen Ooms
+# Copyright (c) 2025 Jeroen Ooms, and Eli Lilly and Comany
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -23,7 +23,7 @@
 on:
   workflow_dispatch:
 
-name: Test Production Snapshot
+name: Create Production Snapshot
 
 jobs:
   snapshot:
@@ -40,24 +40,26 @@ jobs:
         shell: Rscript {0}
         run: install.packages("rversions")
 
-      - name: Record snapshot date.
+      - name: Record production snapshot date.
         run: date +%F > date.txt
+
+      - name: Record staging freeze date.
+        run: date -d "1 month ago" +"%Y-%m-15" > staging.txt
 
       - name: Record snapshot R version.
         shell: Rscript {0}
         run: writeLines(rversions::r_release()$version, "r_version.txt")
 
-      - name: Download snapshot.
-        run: |
-          rm -rf bin src snapshot.url
-          curl "https://raw.githubusercontent.com/r-multiverse/staging/main/snapshot.url" -Lo snapshot.url
-          cat snapshot.url | xargs curl -Lo snapshot.zip
-          unzip snapshot.zip && rm -f snapshot.zip
+      - name: Save snapshot URL.
+        run: curl "https://raw.githubusercontent.com/r-multiverse/staging/main/snapshot.url" -Lo snapshot.url
 
-      - name: Commit and push.
-        run: |
-          git config --global user.name github-actions
-          git config --global user.email actions@github.com
-          git add .
-          git commit -m "R-multiverse Production snapshot ($(date +%F))"
-          git push
+      - name: Clean files.
+        run: rm -rf .github README.md bin src
+
+      - name: Push to the snapshot branch.
+        if: github.event_name != 'pull_request'
+        uses: JamesIves/github-pages-deploy-action@v4.4.1
+        with:
+          clean: false
+          branch: snapshot
+          folder: .
